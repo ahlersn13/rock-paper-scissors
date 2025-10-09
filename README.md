@@ -27,5 +27,14 @@ In this lab you will build a rock-paper-scissors game using JavaScript.
 11. Questions
     1. Update the readme file by answering the following questions and typing your answers in that file.
         1. Explain your design choices and how you used CSS to realize those changes.
+            Changed player 1 name to blue
+            Changed player 2 name to red
+            Centered the button after changing it to the modern button styling in HTML
+            Added viewport code to HTML and built responsive syling using the @media for better mobile viewing
+                Game result shrinks
+                Images shrink
+                Button covers more of the page
+                Screenshot attached
         2. Include screenshots if needed.
+            See ResponsiveVsNormal.png in img file to review responsive changes
 12. Submit your repository via github.

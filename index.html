@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab 1</title>
-    <!-- Add your external CSS link here -->
-    <link rel="stylesheet" href="">
+  
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -13,18 +14,19 @@
       <h1>Rock Paper Scissors</h1>
 
       <div class="game">
-        <p>Player 1</p>
+        <p id='p1'>Player 1</p>
         <img class="img1" src="img/scissors.png">
       </div>
 
       <div class="game">
-        <p>Player 2</p>
+        <p id='p2'>Player 2</p>
         <img class="img2" src="img/scissors.png">
       </div>
 
     </div>
 
-    <input type="button" value="Generate Numbers" onclick="Game();">
+   
+    <button onclick="Game()">Generate Numbers</button>
     <script src="script.js"> </script>
 
   </body>

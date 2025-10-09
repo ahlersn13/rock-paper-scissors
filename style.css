@@ -1,4 +1,39 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   margin: auto;
-  text-align: center;
+  text-align: center; 
+}
+#p1 {
+  color: blue;   /*Player 1 Name Blue*/
+}
+
+#p2 {                
+  color: red;   /*Player 2 Name Red*/
+}
+
+button {          /*center button */
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  h1{
+    font-size: 20px
+  }
+  img {
+    width: 120px;
+    height: auto;
+  }
+  button {
+    width: 80%;
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px
+  }
 }
